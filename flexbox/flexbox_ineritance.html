@@ -1,0 +1,48 @@
+<html>
+	<head>
+        <style type="text/css">
+            .my-view {
+                display: flex;
+                height: 100%;
+                padding: 0;
+                width: 100%;
+            }
+            .cancel {
+                background-color: red;
+                height: 100%;
+                width: 25%;
+            }
+            .main {
+                width: 100%;
+                display: flex;
+            }
+            .content {
+                background-color: green;
+                width: 100%;
+            }
+            .preview {
+                background-color: blue;              
+                width: 25%;
+            }
+        </style>
+	</head>
+	<body>
+        <div class="my-view">
+            <div class="cancel">
+                <h1>Cancel</h1>
+            </div>
+            <div class="main">
+                    <my-tag>
+                        <div class="content">
+                            <h1>Content</h1>
+                        </div>
+                    </my-tag>
+                    <my-tag>
+                        <div class="preview">
+                            <h1>Preview</h1>
+                        </div>
+                    </my-tag>
+            </div>
+        </div>
+	</body>
+</html>

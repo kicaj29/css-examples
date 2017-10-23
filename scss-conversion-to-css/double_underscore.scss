@@ -1,0 +1,9 @@
+.one {
+	color: blue;
+    &__left {
+        color: green;
+    }
+	&__rigth {
+        color: red;
+    }
+}

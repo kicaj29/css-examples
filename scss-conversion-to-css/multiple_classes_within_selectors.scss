@@ -1,0 +1,13 @@
+.one {
+	color: blue;
+    &.two {
+        color: purple;
+        .special {
+            font-size: xx-large;
+            font-style: italic;
+        }
+    }
+}
+.two {
+    color: red;
+}

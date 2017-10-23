@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .flex-container {
+            display: flex;
+            width: 700px;
+            height: 500px;
+            background-color: lightgrey;
+            flex-direction: row; /*row (default), row-reverse, column, column-reverse*/
+
+            justify-content: flex-end; /*flex-start (default), flex-end, center, space-between, space-around*/
+            /*The justify-content property horizontally aligns the flexible container's items when the items do not use all available space on the main-axis.*/
+
+            align-items: stretch; /*stretch (default), flex-start, flex-end, center, baseline*/
+            /*The align-items property vertically aligns the flexible container's items when the items do not use all available space on the cross-axis.*/
+            /*This property has impact only if .flex-item has not set height!*/
+
+            flex-wrap: wrap; /*nowrap (default), wrap, wrap-reverse*/
+            /*The flex-wrap property specifies whether the flex items should wrap or not, if there is not enough room for them on one flex line.*/
+            /*This property has impact only if width of container is smaller then sum of items width!*/
+
+            align-content: stretch; /*stretch (default), flex-start, flex-end, center, space-between, space-around*/
+            /*The align-content property modifies the behavior of the flex-wrap property. It is similar to align-items, but instead of aligning flex items, it aligns flex lines.*/
+            /*This property has impact only if flex-wrap is set on wrap or wrap-reverse!*/
+        }
+
+        .flex-item {
+            background-color: cornflowerblue;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+
+        .flex-item-no-shrink {
+            background-color: cornflowerblue;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            flex-shrink: 0;
+        }
+        .first {
+            order: -1;
+        }
+        .flex-item:first-child {
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="flex-container">
+        <div class="flex-item">flex item 1</div>
+        <div class="flex-item">flex item 2</div>
+        <div class="flex-item first">flex item 3</div>
+        <div class="flex-item">flex item 4</div>
+        <div class="flex-item-no-shrink">flex item 5</div>
+    </div>
+</body>
+</html>
