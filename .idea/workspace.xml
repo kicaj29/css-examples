@@ -72,8 +72,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="221">
-                <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+              <first_editor relative-caret-position="136">
+                <caret line="8" column="125" lean-forward="true" selection-start-line="8" selection-start-column="125" selection-end-line="8" selection-end-column="125" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -206,7 +206,7 @@
       <workItem from="1506326241184" duration="616000" />
       <workItem from="1512041469797" duration="17000" />
       <workItem from="1512216289396" duration="5802000" />
-      <workItem from="1512222129387" duration="1808000" />
+      <workItem from="1512222129387" duration="1855000" />
     </task>
     <task id="LOCAL-00001" summary="readme update">
       <created>1512216326721</created>
@@ -243,11 +243,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512223452714</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="readme update">
+      <created>1512223959381</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512223959381</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9185000" />
+    <option name="totallyTimeSpent" value="9232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -281,10 +288,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="readme update" />
     <MESSAGE value="flexbox update." />
     <MESSAGE value="Flex update - possibility 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flex update - possibility 2" />
+    <MESSAGE value="readme update" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -573,8 +580,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="221">
-            <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="125" lean-forward="true" selection-start-line="8" selection-start-column="125" selection-end-line="8" selection-end-column="125" />
             <folding />
           </first_editor>
           <second_editor />

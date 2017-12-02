@@ -6,7 +6,7 @@ __Grid__ is for layout of items in __two dimensions__– rows and columns.
 https://tutorialzine.com/2017/03/css-grid-vs-flexbox
 https://css-tricks.com/css-grid-replace-flexbox   
 
-NOTE: but it is also possible to achieve two dimensions using flexbox, it is presented in examples flexbox-layout-possibility{n}.
+NOTE: it is also possible to achieve two dimensions using flexbox, it is presented in examples flexbox-layout-possibility{n}.
 
 ### flexbox
 Examples flexbox-layout-possibility{n} show how to build the same layout using different methods:
