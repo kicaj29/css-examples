@@ -3,7 +3,7 @@
 ## flexbox-vs-grid
 __Flexbox__ is essentially for laying out items in a __single dimension__– in a row OR a column. 
 __Grid__ is for layout of items in __two dimensions__– rows and columns.   
-https://tutorialzine.com/2017/03/css-grid-vs-flexbox
+https://tutorialzine.com/2017/03/css-grid-vs-flexbox   
 https://css-tricks.com/css-grid-replace-flexbox   
 
 NOTE: it is also possible to achieve two dimensions using flexbox, it is presented in examples flexbox-layout-possibility{n}.
