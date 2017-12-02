@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a238bf2-f090-4c40-9269-05871666a107" name="Default" comment="readme update">
+    <list default="true" id="7a238bf2-f090-4c40-9269-05871666a107" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flexbox/flexbox-layout-possibility2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flexbox/flexbox_sample_main_page.html" afterPath="$PROJECT_DIR$/flexbox/flexbox_sample_main_page.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,29 +42,39 @@
       <file leaf-file-name="flexbox-layout-possibility1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flexbox/flexbox-layout-possibility1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="52" lean-forward="false" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="52" />
+            <state relative-caret-position="-42">
+              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flexbox-layout-going-to-new-row.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="flexbox-layout-going-to-new-row.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flexbox/flexbox-layout-going-to-new-row.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="53" column="52" lean-forward="false" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
+            <state relative-caret-position="813">
+              <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="flexbox-layout-possibility2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flexbox/flexbox-layout-possibility2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="187">
-                <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <first_editor relative-caret-position="374">
+                <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -92,9 +102,10 @@
       <list>
         <option value="$PROJECT_DIR$/flexbox/flexbox_sample_main_page.html" />
         <option value="$PROJECT_DIR$/flexbox/flexbox_flexline-test.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/flexbox/flexbox-layout-possibility1.html" />
         <option value="$PROJECT_DIR$/flexbox/flexbox-layout-going-to-new-row.html" />
+        <option value="$PROJECT_DIR$/flexbox/flexbox-layout-possibility2.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -165,6 +176,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Github\kicaj29\css-examples\flexbox" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -191,7 +207,7 @@
       <workItem from="1506326241184" duration="616000" />
       <workItem from="1512041469797" duration="17000" />
       <workItem from="1512216289396" duration="5802000" />
-      <workItem from="1512222129387" duration="4000" />
+      <workItem from="1512222129387" duration="1163000" />
     </task>
     <task id="LOCAL-00001" summary="readme update">
       <created>1512216326721</created>
@@ -207,11 +223,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512216453927</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="flexbox update.">
+      <created>1512222189515</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512222189515</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7381000" />
+    <option name="totallyTimeSpent" value="8540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -246,7 +269,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="readme update" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme update" />
+    <MESSAGE value="flexbox update." />
+    <option name="LAST_COMMIT_MESSAGE" value="flexbox update." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -508,30 +532,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/flexbox/flexbox-layout-going-to-new-row.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flexbox/flexbox-layout-possibility2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flexbox/flexbox-layout-possibility1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="52" lean-forward="false" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="52" />
+        <state relative-caret-position="-42">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flexbox/flexbox-layout-going-to-new-row.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="53" column="52" lean-forward="false" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="374">
+            <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

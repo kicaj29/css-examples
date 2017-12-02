@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .flex-container-main-col {
+            display: flex;
+            flex-flow: column;
+        }
+        .flex-container-main-col_row {
+            display: flex;
+            flex-flow: row;
+        }
+        .red-top {
+            background: red;
+            padding: 60px;
+        }
+        .blue-left {
+            background: blue;
+            flex: 0 0 70px;
+            padding: 60px;
+        }
+        .orange-center {
+            background: orange;
+            flex: 3 1 auto;
+            padding: 60px;
+        }
+        .brown-right {
+            background: brown;
+            flex: 1 1 auto;
+            padding: 60px;
+        }
+        .yellow-bottom {
+            background: yellow;
+            padding: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container-main-col">
+        <div class="red-top">red-top</div>
+        <div class="flex-container-main-col_row">
+            <div class="blue-left">blue-left(const size)</div>
+            <div class="orange-center">orange-center</div>
+            <div class="brown-right">brown-right</div>
+        </div>
+        <div class="yellow-bottom">yellow-bottom</div>
+    </div>
+</body>
+</html>
+

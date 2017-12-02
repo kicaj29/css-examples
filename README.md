@@ -18,6 +18,9 @@ http://the-echoplex.net/flexyboxes/
   * __flex-basis__ property specifies the initial length of a flexible item.   __auto__ means that the length is equal to the length of the flexible item.
   If the item has no length specified, the length will be according to its content. __This property can be used to go to the new row(column).__
 
+Examples flexbox-layout-possibility{n} show how to build the same layout using different methods:   
+* possibility1: use one flex container
+* possibility2: use two flex containers 
 
 
 ### grid
