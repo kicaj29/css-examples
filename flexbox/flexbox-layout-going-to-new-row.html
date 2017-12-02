@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .flex-container {
+            display: flex;
+            /*width: 500px;*/
+            /*height: 500px;*/
+            background: lightblue;
+            /*flex-flow: flex-direction flex-wrap*/
+            flex-flow: row wrap;
+        }
+        .flex-container > * {
+            box-sizing: border-box;
+            padding: 60px;
+            /*every direct child of flex-container class will have such padding*/
+        }
+        .red-top {
+            background: red;
+            flex: 1 1 100%; /*100% causes that red-top will take the whole first row*/
+            order: 0;
+        }
+        .blue-left {
+            background: blue;
+            flex: 0 0 70px;
+            order: 1;
+        }
+        .orange-center {
+            background: orange;
+            flex: 3 1 50%;
+            order: 2;
+        }
+        .brown-right {
+            padding: 30px;
+            background: brown;
+            flex: 1 1 auto; /*it will have size (length) of this flexible item*/
+            order: 3;
+        }
+        .yellow-bottom {
+            background: yellow;
+            flex: 1 1 50%;
+            order: 4;
+        }
+        .purple-bottom {
+            background: purple;
+            flex: 1 1 50%;
+            order: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="red-top">red-top</div>
+        <div class="blue-left">blue-left(const size)</div>
+        <div class="orange-center">orange-center</div>
+        <div class="brown-right">brown-right</div>
+        <div class="yellow-bottom">yellow-bottom</div>
+        <div class="purple-bottom">purple-bottom</div>
+    </div>
+</body>
+</html>
+
