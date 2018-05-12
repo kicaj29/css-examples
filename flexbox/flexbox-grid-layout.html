@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+		.flex-container {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			border: 1px solid silver;
+			display: flex;
+			width: 600px;
+		}
+		.wrap { 
+		  -webkit-flex-wrap: wrap;
+		  flex-wrap: wrap;
+		}
+		.flex-item {
+		   	background: tomato;
+		   	width: 150px;
+		    height: 100px;
+			border: 1px solid black;
+		}
+		.flex-item-last-in-row {
+			flex-grow: 1;
+		}
+    </style>
+</head>
+<body>
+	<a href="https://css-tricks.com/almanac/properties/f/flex-wrap/">online sample</a>
+	<div class="flex-container wrap">
+	  	<div class="flex-item">1</div>
+	  	<div class="flex-item">2</div>
+	  	<div class="flex-item  flex-item-last-in-row">3</div>
+	  	<div class="flex-item">4</div>
+	  	<div class="flex-item">5</div>
+	  	<div class="flex-item  flex-item-last-in-row">6</div>
+	   	<div class="flex-item">7</div>
+	  	<div class="flex-item">8</div>
+		<div class="flex-item flex-item-last-in-row">9</div>
+		<div class="flex-item">10</div>
+		<div class="flex-item">11</div>
+		<div class="flex-item flex-item-last-in-row">12</div>
+	</div>
+</body>
+</html>
+
