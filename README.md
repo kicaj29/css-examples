@@ -33,3 +33,4 @@ http://the-echoplex.net/flexyboxes/
 
 ### data table width
 https://stackoverflow.com/questions/21651767/html-table-both-fixed-and-multiple-variable-column-widths
+https://stackoverflow.com/questions/46885284/angular-4-material-table-resizable-columns
