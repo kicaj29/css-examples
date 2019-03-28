@@ -30,3 +30,6 @@ http://the-echoplex.net/flexyboxes/
 
 
 ### grid
+
+### data table width
+https://stackoverflow.com/questions/21651767/html-table-both-fixed-and-multiple-variable-column-widths
