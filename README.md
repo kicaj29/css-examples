@@ -40,3 +40,4 @@ https://developer.mozilla.org/en-US/docs/Web/Web_Components
 https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM   
 https://github.com/mdn/web-components-examples/tree/master/popup-info-box-external-stylesheet   
 
+[customElements.define vs document.registerElement](https://stackoverflow.com/questions/46476905/what-is-the-difference-between-window-customelements-define-and-document-regis)
