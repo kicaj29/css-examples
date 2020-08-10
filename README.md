@@ -1,6 +1,4 @@
-# css-examples
-
-## flexbox-vs-grid
+# flexbox-vs-grid
 __Flexbox__ is essentially for laying out items in a __single dimension__– in a row OR a column. 
 __Grid__ is for layout of items in __two dimensions__– rows and columns.   
 https://tutorialzine.com/2017/03/css-grid-vs-flexbox   
@@ -8,7 +6,7 @@ https://css-tricks.com/css-grid-replace-flexbox
 
 NOTE: it is also possible to achieve two dimensions using flexbox, it is presented in examples flexbox-layout-possibility{n}.
 
-### flexbox
+## flexbox
 Examples flexbox-layout-possibility{n} show how to build the same layout using different methods:
 
 possibility1: use one flex container      
@@ -29,10 +27,16 @@ http://the-echoplex.net/flexyboxes/
 
 
 
-### grid
+## grid
 
-### data table width
+# data table width
 https://stackoverflow.com/questions/21651767/html-table-both-fixed-and-multiple-variable-column-widths
 https://stackoverflow.com/questions/46885284/angular-4-material-table-resizable-columns
 https://stackoverflow.com/questions/3941231/html-table-fixed-width-columns-and-horizontal-scroll
 https://codepen.io/paulobrien/pen/gWoVzN
+
+# shadow DOM
+https://developer.mozilla.org/en-US/docs/Web/Web_Components   
+https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM   
+https://github.com/mdn/web-components-examples/tree/master/popup-info-box-external-stylesheet   
+
