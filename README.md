@@ -35,7 +35,7 @@ https://stackoverflow.com/questions/46885284/angular-4-material-table-resizable-
 https://stackoverflow.com/questions/3941231/html-table-fixed-width-columns-and-horizontal-scroll
 https://codepen.io/paulobrien/pen/gWoVzN
 
-# shadow DOM
+# shadow DOM / custom elements (web components)
 https://developer.mozilla.org/en-US/docs/Web/Web_Components   
 https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM   
 https://github.com/mdn/web-components-examples/tree/master/popup-info-box-external-stylesheet   
