@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            background-color: red;
+            min-height: 100%;
+        }
+        .container__header {
+            flex: 0 0 40px;
+            background-color: lightgrey;
+            /*next flex in the header:*/
+            display: flex;           
+            flex-direction: row;
+        }        
+        .container__header__nav__item {
+            font-size: large;
+        }
+        .container__main {
+            background-color: antiquewhite;
+            width: 100%;
+            flex: 1;
+        }
+        .container__footer {
+            background-color: darkgray;
+            flex: 0 0 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="container__header">
+            <nav class="container__header__nav">
+                <a class="container__header__nav__item" href="/nav1">menu  item1</a> |
+                <a class="container__header__nav__item" href="/nav1">menu  item1</a>
+            </nav>
+        </header>
+        <main class="container__main">
+
+        </main>
+        <footer class="container__footer">
+
+        </footer>
+    </div>
+</body>
+</html>

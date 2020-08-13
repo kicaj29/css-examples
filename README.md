@@ -41,3 +41,62 @@ https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM
 https://github.com/mdn/web-components-examples/tree/master/popup-info-box-external-stylesheet   
 
 [customElements.define vs document.registerElement](https://stackoverflow.com/questions/46476905/what-is-the-difference-between-window-customelements-define-and-document-regis)
+
+# layouts
+
+## layout_by_flexbox.html
+
+[layout_by_flexbox.html](./layouts/layout_by_flexbox.html)
+* to have 100% height of the main container set ```height: 100%``` for tags html, body and also set ``` min-height: 100%``` for the main container.
+* to have fixed height header and footer just set ```flex-basis``` to neccessary height, for example ```flex: 0 0 40px```.
+* to fill in remaing area by the main content set ```flex: 1```.
+
+Another simple example:
+```html
+<div class="container">
+	<div class="box box-1">box 1</div>
+	<div class="box box-2">box 2</div>
+	<div class="box box-3">box 3</div>
+</div>
+```
+
+```css
+html,
+body {
+	height: 100%;
+}
+
+.container {
+	height: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+	.box {
+		text-align: center;
+		color: white;
+		font-family: sans-serif;
+		font-size: 36px;
+		padding: 20px;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	.box-1 {
+		background-color: green;
+		height: 60px;
+	}
+	
+	.box-2 {
+		background-color: blue;
+		flex: 1;
+	}
+	
+	.box-3 {
+		background-color: red;
+		height: 60px;
+	}
+}
+```
