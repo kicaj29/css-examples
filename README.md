@@ -53,17 +53,20 @@ https://github.com/mdn/web-components-examples/tree/master/popup-info-box-extern
 
 Another simple example:
 ```html
-<div class="container">
-	<div class="box box-1">box 1</div>
-	<div class="box box-2">box 2</div>
-	<div class="box box-3">box 3</div>
-</div>
+<body>
+    <div class="container">
+        <div class="box box-1">box 1</div>
+        <div class="box box-2">box 2</div>
+        <div class="box box-3">box 3</div>
+    </div>
+</body>
 ```
 
 ```css
 html,
 body {
 	height: 100%;
+	margin: 0;
 }
 
 .container {
@@ -71,8 +74,9 @@ body {
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
-	
-	.box {
+}
+
+.box {
 		text-align: center;
 		color: white;
 		font-family: sans-serif;
@@ -84,19 +88,19 @@ body {
 		justify-content: center;
 	}
 	
-	.box-1 {
-		background-color: green;
-		height: 60px;
-	}
-	
-	.box-2 {
-		background-color: blue;
-		flex: 1;
-	}
-	
-	.box-3 {
-		background-color: red;
-		height: 60px;
-	}
+.box-1 {
+	background-color: green;
+	height: 60px;
+}
+
+.box-2 {
+	background-color: blue;
+	flex: 1;
+}
+
+.box-3 {
+	background-color: red;
+	height: 60px;
+}
 }
 ```
