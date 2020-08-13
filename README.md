@@ -102,5 +102,4 @@ body {
 	background-color: red;
 	height: 60px;
 }
-}
 ```
