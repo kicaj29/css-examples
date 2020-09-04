@@ -106,6 +106,8 @@ body {
 
 # box sizing
 
+[box-sizing](./box-sizing)
+
 Default (width and height counted for the content only).   
 width + padding + border = actual width of an element   
 height + padding + border = actual height of an element   
