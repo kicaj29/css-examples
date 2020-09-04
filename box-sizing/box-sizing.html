@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .div1 {
+            width: 300px;
+            height: 100px;
+            border: 1px solid blue;
+            }
+
+        .div2 {
+            width: 300px;
+            height: 100px;
+            padding: 50px;
+            border: 1px solid red;
+            margin: 40px;
+        }
+        .div1--box-sizing {
+            width: 300px;
+            height: 100px;
+            border: 1px solid blue;
+            box-sizing: border-box;
+            }
+
+        .div2--box-sizing {
+            width: 300px;
+            height: 100px;
+            padding: 50px;
+            border: 1px solid red;
+            margin: 40px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">No border box1.</div>
+    <div class="div2">No border box2.</div>
+    <br>
+    <br>
+    <div class="div1--box-sizing">Border box 1.</div>
+    <div class="div2--box-sizing">Border box 2.</div>
+</body>
+</html>
