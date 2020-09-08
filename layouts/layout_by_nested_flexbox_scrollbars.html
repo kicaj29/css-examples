@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        .document__container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            max-height: 100%;
+        }
+        .document__container__header {
+            flex: 0 1 60px;
+            border: 1px solid red;                
+        }
+        .document__container__main {
+            flex: 0 1 calc(100% - 60px);
+            border: 1px solid red;
+            max-height: calc(100% - 60px);
+            /*it is also next flex 'container'*/
+            display: flex;
+            flex-direction: row;
+        }
+        .document__container__main__view {
+            border: 1px solid red;
+            overflow-y: auto;
+            flex: 0 1 calc(100% - 300px);
+        }
+        .document__container__main__sidebar {
+            flex: 0 1 300px;
+            border: 1px solid red;
+            overflow-y: auto;
+        }
+    </style>
+    <script>
+        function replicate(original, num) {
+            result = '';
+            let i;
+            for (i = 0; i < num; i++) {
+                result += original + "<br>";
+            }
+            return result;
+        }
+        function generateContent() {
+            console.log("start");
+            let mainView = document.getElementsByClassName("document__container__main__view");
+            mainView[0].innerHTML = replicate("main view", 50);
+
+            let sidebar = document.getElementsByClassName("document__container__main__sidebar");
+            sidebar[0].innerHTML = replicate("sidebar", 50);
+            console.log("end");
+        }
+    </script>
+</head>
+<body onload="generateContent()">
+    <div class="document__container">
+        <header class="document__container__header">
+          <span>I am header</span>
+        </header>
+        <div class="document__container__main">
+            <div class="document__container__main__view">
+                Main view
+            </div>
+            <div class="document__container__main__sidebar">
+                Sidebar
+            </div>
+        </div>
+      </div>
+</body>
+</html>

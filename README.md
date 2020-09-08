@@ -104,6 +104,34 @@ body {
 }
 ```
 
+## layout_by_nested_flexbox_scrollbars.html
+
+[layout_by_nested_flexbox_scrollbars.html](./layouts/layout_by_nested_flexbox_scrollbars.html)   
+This example shows how to created layout using nested flexbox with additional vertical scroll bars in selected sections.
+>NOTE: it is important to place nested flexbox on the same level as flex-item from the parent flexbox. Only then scroll bars work correctly. There is another example [layout_by_nested_flexbox_scrollbars_not_working.html](./layouts/layout_by_nested_flexbox_scrollbars_not_working.html) with ```div``` between flexboxes where scroll bars do not work correctly.   
+Correct:
+```css
+.document__container__main {
+	flex: 0 1 calc(100% - 60px);
+	border: 1px solid red;
+	max-height: calc(100% - 60px);
+	/*it is also next flex 'container'*/
+	display: flex;
+	flex-direction: row;
+}
+```
+Incorrect:
+```css
+.document__container__main {
+	flex: 0 1 calc(100% - 60px);
+	border: 1px solid red;
+	max-height: calc(100% - 60px);
+}
+.document__container__main__container {
+	display: flex;
+	flex-direction: row;
+}
+```
 # box sizing
 
 [box-sizing](./box-sizing)
