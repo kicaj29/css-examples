@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .parent {   
+            font-size: 18px; 
+        }
+        .child {   
+            font-size: 1.5em;
+            padding: 2em 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        I am parent div
+        <div class="child">
+            I am child div<br>
+                - font size:(1.5 * 18px = 27px),<br>
+                - padding top and bottom: (2 * 27px = 54px, because it is calculate relative to the current element font size!),<br>
+                - padding left and right: (1 * 27px = 27px, because it is calculate relative to the current element font size!),<br>
+        </div>
+    </div>
+</body>
+</html>

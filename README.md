@@ -142,3 +142,50 @@ height + padding + border = actual height of an element
 ![default](./images/no-border-box.png)   
 Border-box (width and height counted for the whole element):   
 ![border-box](./images/border-box.png)
+
+# pem vs em
+
+[pem-vs-em](https://medium.com/@hossam.hilal0/rem-vs-em-units-in-css-96d5ac15878e)   
+
+[example](./pem-vs-em/index.html)   
+
+- em units for the font-size property will be relative to the font-size of the parent element.
+- em units on other properties than font-size will be relative to the font-size of the current element.
+- rem units sizes will always be relative to the font-size of the root html element. suited for your use cases. Let’s break it down as briefly as possible.
+
+
+In most browsers, a user can set their default browser font-size to be a different size to the default (typically 16px). If the user sets their default to 20px, all font-sizes should scale accordingly.
+However, if the website explicitly sets font-sizes in pixels, a heading set at 30px will always be 30px. That might sound great from a designer/developer point of view — but you’re not the user, stop making websites for yourself.
+
+
+em unit is problematic when we want use multiple times 'child' class. To avoid this problem rem unit was created.
+
+```css
+.parent {   
+   font-size: 15px; 
+}
+.child {   
+   font-size: 2em; 
+}
+```
+
+```html
+<div class="parent">   
+    I'm 15px   
+    <div class="child">   
+         I'm 30px, as expected     
+         <div class="child">     
+              I'm 60px, trouble starts!       
+              <div class="child">       
+                   I'm 120px, now we're really in trouble!
+              </div>     
+         </div>   
+    </div> 
+</div>
+```
+
+# scss partials
+
+[partials](https://sass-lang.com/guide)
+
+>"You can create partial Sass files that contain little snippets of CSS that you can include in other Sass files. This is a great way to modularize your CSS and help keep things easier to maintain. A partial is a Sass file named with a leading underscore. You might name it something like _partial.scss. The underscore lets Sass know that the file is only a partial file and that it should not be generated into a CSS file. Sass partials are used with the @use rule."
