@@ -143,9 +143,9 @@ height + padding + border = actual height of an element
 Border-box (width and height counted for the whole element):   
 ![border-box](./images/border-box.png)
 
-# pem vs em
+# rem vs em
 
-[pem-vs-em](https://medium.com/@hossam.hilal0/rem-vs-em-units-in-css-96d5ac15878e)   
+[rem-vs-em](https://medium.com/@hossam.hilal0/rem-vs-em-units-in-css-96d5ac15878e)   
 
 [example em](./pem-vs-em/index-em.html)   
 [example rem](./pem-vs-em/index-rem.html)   
@@ -159,7 +159,7 @@ In most browsers, a user can set their default browser font-size to be a differe
 However, if the website explicitly sets font-sizes in pixels, a heading set at 30px will always be 30px. That might sound great from a designer/developer point of view — but you’re not the user, stop making websites for yourself.
 
 
-em unit is problematic when we want use multiple times 'child' class. To avoid this problem rem unit was created.
+em unit is problematic when we want use multiple times 'child' class. To avoid this problem **rem** unit was created.
 
 ```css
 .parent {   
