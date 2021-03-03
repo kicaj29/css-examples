@@ -147,7 +147,8 @@ Border-box (width and height counted for the whole element):
 
 [pem-vs-em](https://medium.com/@hossam.hilal0/rem-vs-em-units-in-css-96d5ac15878e)   
 
-[example](./pem-vs-em/index.html)   
+[example em](./pem-vs-em/index-em.html)   
+[example rem](./pem-vs-em/index-rem.html)   
 
 - em units for the font-size property will be relative to the font-size of the parent element.
 - em units on other properties than font-size will be relative to the font-size of the current element.
