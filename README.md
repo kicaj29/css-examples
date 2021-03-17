@@ -1,3 +1,15 @@
+- [flexbox-vs-grid](#flexbox-vs-grid)
+	- [flexbox](#flexbox)
+	- [grid](#grid)
+- [data table width](#data-table-width)
+- [shadow DOM / custom elements (web components)](#shadow-dom--custom-elements-web-components)
+- [layouts](#layouts)
+	- [layout_by_flexbox.html](#layout_by_flexboxhtml)
+	- [layout_by_nested_flexbox_scrollbars.html](#layout_by_nested_flexbox_scrollbarshtml)
+	- [layout by flexbox with custom tags](#layout-by-flexbox-with-custom-tags)
+- [box sizing](#box-sizing)
+- [rem vs em](#rem-vs-em)
+- [scss partials](#scss-partials)
 # flexbox-vs-grid
 __Flexbox__ is essentially for laying out items in a __single dimension__– in a row OR a column. 
 __Grid__ is for layout of items in __two dimensions__– rows and columns.   
@@ -132,6 +144,50 @@ Incorrect:
 	flex-direction: row;
 }
 ```
+## layout by flexbox with custom tags
+
+If we use custom tags then we have to apply proper css styles directly on these custom tags and not on the 'root' tag in the custom tag. There is no error in web browser and layout is not rendered properly!
+
+[correct-implementation](./layouts/layout_by_flexbox_custom_tags_correct.html)
+
+```html
+<body>
+    <div class="container">
+		<my-custom-header class="box box-1">
+			<div>box 1</div>
+		</my-custom-header>
+		<my-custom-main class="box box-2">
+			<div>box 2</div>
+		</my-custom-main>
+		<my-custom-footer class="box box-3">
+			<div>box 3</div>
+		</my-custom-footer>
+    </div>
+</body>
+```
+
+![correct](./images/layout-flexbox-custom-tags-correct.png)
+
+[incorrect-implementation](./layouts/layout_by_flexbox_custom_tags_incorrect.html)
+
+```html
+<body>
+    <div class="container">
+		<my-custom-header>
+			<div class="box box-1">box 1</div>
+		</my-custom-header>
+		<my-custom-main>
+			<div class="box box-2">box 2</div>
+		</my-custom-main>
+		<my-custom-footer>
+			<div class="box box-3">box 3</div>
+		</my-custom-footer>
+    </div>
+</body>
+```
+
+![incorrect](./images/layout-flexbox-custom-tags-incorrect.png)
+
 # box sizing
 
 [box-sizing](./box-sizing)

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .container {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box {
+                text-align: center;
+                color: white;
+                font-family: sans-serif;
+                font-size: 36px;
+                padding: 20px;
+                
+                flex-direction: column;
+                justify-content: center;
+            }
+            
+        .box-1 {
+            background-color: green;
+            height: 60px;
+        }
+        
+        .box-2 {
+            background-color: blue;
+            flex: 1;
+        }
+        
+        .box-3 {
+            background-color: red;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+		<my-custom-header>
+			<div class="box box-1">box 1</div>
+		</my-custom-header>
+		<my-custom-main>
+			<div class="box box-2">box 2</div>
+		</my-custom-main>
+		<my-custom-footer>
+			<div class="box box-3">box 3</div>
+		</my-custom-footer>
+    </div>
+</body>
+</html>
