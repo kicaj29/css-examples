@@ -146,7 +146,11 @@ Incorrect:
 ```
 ## layout by flexbox with custom tags
 
-If we use custom tags then we have to apply proper css styles directly on these custom tags and not on the 'root' tag in the custom tag. There is no error in web browser and layout is not rendered properly!
+If we use custom tags then we have to apply proper css styles directly on these custom tags and not on the 'root' tag in the custom tag. There is no error in web browser and layout is not rendered properly!   
+
+It means that if for example in Angular we use in a template custom tag (selector of another component) then we have to style this component using pseudo-class selector ```:host```.
+
+More about using ```:host``` [here](https://blog.angular-university.io/angular-host-context).
 
 [correct-implementation](./layouts/layout_by_flexbox_custom_tags_correct.html)
 
